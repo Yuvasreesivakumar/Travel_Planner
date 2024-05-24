@@ -1,0 +1,149 @@
+[
+    {
+      "id": 1,
+      "name": "London",
+      "description": "Explore London: A Vibrant Blend of History and Modernity\n\nDiscover the charm of London, a city where historic landmarks like the Tower of London and Buckingham Palace meet contemporary attractions such as the Shard and the London Eye. Stroll through world-class museums, enjoy diverse culinary experiences, and immerse yourself in the lively arts and theater scene. Whether you're exploring bustling markets, serene parks, or iconic neighborhoods, London offers a rich tapestry of experiences for every traveler. Plan your unforgettable journey to the heart of the UK today!",
+      "imageUrl": "http://localhost:3000/images/lonimg7.jpg",
+      "featured": true,
+      "countryCode": "uk",
+      "expense": 100000,
+      "images": ["http://localhost:3000/images/lonimg7.jpg", "http://localhost:3000/images/lonimg9.jpg", "http://localhost:3000/images/lonimg8.jpg"],
+      "touristPlaces": [
+        { "image": "http://localhost:3000/images/lonimg2.jpg", "name": "Windsor Castle" },
+        { "image": "http://localhost:3000/images/lonimg4.jpg", "name": "St.Paul's Cathedral" },
+        { "image": "http://localhost:3000/images/lonimg6.jpg", "name": "Green Park Station" },
+        { "image": "http://localhost:3000/images/lonimg5.jpg", "name": "Buckingham Palace" }
+      ],
+      "language": "English",
+      "currency": "GBP",
+      "temperature": 15,
+      "weatherDescription": "Cloudy",
+      "localCuisine": [
+        { "image": "http://localhost:3000/images/lonf.jpg", "name": "Fish and Chips", "description": "A classic British dish featuring battered fish and deep-fried chips." },
+        { "image": "http://localhost:3000/images/lonf2.jpg", "name": "Pie and Mash", "description": "Enjoy savory meat pies paired with mashed potatoes and gravy."},
+        { "image": "http://localhost:3000/images/lonf1.jpg", "name": "Afternoon Tea", "description": "Indulge in a traditional British afternoon tea experience with scones, clotted cream, and jam." }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "description":"Journey Through Japan: Where Tradition Meets Innovation\n\nEmbark on an unforgettable adventure through Japan, a land where ancient traditions harmonize with cutting-edge technology. From the serene temples of Kyoto to the bustling streets of Tokyo, Japan offers a captivating blend of old-world charm and modern marvels.\n\nExplore the iconic sights of Tokyo, where neon-lit skyscrapers stand side by side with historic temples and shrines. Dive into the rich cultural tapestry of Kyoto, where geisha glide through ancient alleyways and centuries-old tea ceremonies await.\n\nDiscover the natural wonders of Hokkaido's breathtaking landscapes, from snow-capped mountains to pristine lakes and hot springs. Indulge in the culinary delights of Osaka's bustling food markets, savoring sushi, ramen, and traditional kaiseki cuisine.\n\nExperience the tranquility of rural Japan in picturesque villages like Shirakawa-go and Takayama, where thatched-roof farmhouses and ancient traditions endure.\n\nWhether you're seeking adventure in the great outdoors, cultural immersion in historic landmarks, or culinary delights to tantalize your taste buds, Japan promises an enriching journey like no other. Start planning your Japanese odyssey today!",
+      "imageUrl": "http://localhost:3000/images/japimg.jpg",
+      "featured": true,
+      "countryCode": "IN",
+      "expense": 200000,
+      "images": ["http://localhost:3000/images/japimg.jpg", "http://localhost:3000/images/japimg1.jpg","http://localhost:3000/images/japimg7.jpg"],
+      "touristPlaces": [
+        { "image": "http://localhost:3000/images/japimg2.jpg", "name": "Osaka Castle" },
+        { "image": "http://localhost:3000/images/japimg3.jpg", "name": "Okinawa World" },
+        { "image": "http://localhost:3000/images/japimg4.jpg", "name": "Okinawa Churaumi Aquarium" },
+        { "image": "http://localhost:3000/images/japimg5.jpg", "name": "Shuri Castle" },
+        { "image": "http://localhost:3000/images/japimg6.jpg", "name": "Shirakawago" }
+      ],
+      "language": "Japanese",
+      "currency": "JPY",
+      "temperature": 20,
+      "weatherDescription": "Sunny",
+      "localCuisine": [
+        { "image": "http://localhost:3000/images/japf.jpg", "name": "Sushi", "description": "Delicious and fresh seafood served atop vinegared rice, a staple of Japanese cuisine." },
+        { "image": "http://localhost:3000/images/japf2.jpg", "name": "Tempura", "description": "Lightly battered and fried seafood or vegetables, a delicious Japanese delicacy." },
+        { "image": "http://localhost:3000/images/japf1.jpg", "name": "Ramen", "description": "Noodles served in a savory broth, often topped with pork, egg, and vegetables." }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "India",
+      "description": "Experience the kaleidoscope of culture, spirituality, and diversity in India. From the majestic Taj Mahal in Agra to the vibrant streets of Mumbai, India offers a tapestry of experiences like no other. Explore ancient temples, bustling bazaars, and tranquil backwaters. Indulge in the rich flavors of Indian cuisine, from spicy curries to aromatic biryanis. Whether you're seeking adventure in the Himalayas, relaxation on the beaches of Goa, or spiritual enlightenment in Varanasi, India invites you to embark on a journey of discovery and wonder.",
+      "imageUrl": "http://localhost:3000/images/in.jpg",
+      "featured": true,
+      "countryCode": "IN",
+      "expense": 150000,
+      "images": ["http://localhost:3000/images/in.jpg", "http://localhost:3000/images/in1.jpg", "http://localhost:3000/images/in2.jpg"],
+      "touristPlaces": [
+        { "image": "http://localhost:3000/images/in3.jpg", "name": "Taj Mahal" },
+        { "image": "http://localhost:3000/images/in4.jpg", "name": "Varanasi Ghats" },
+        { "image": "http://localhost:3000/images/in5.jpg", "name": "Jaipur City Palace" }
+      ],
+      "language": "Hindi, English",
+      "currency": "INR",
+      "temperature": 28,
+      "weatherDescription": "Sunny",
+      "localCuisine": [
+        { "image": "http://localhost:3000/images/indf1.jpg", "name": "Masala Dosa", "description": "A South Indian specialty consisting of a thin, crispy pancake filled with spiced potatoes, served with coconut chutney and sambar." },
+        { "image": "http://localhost:3000/images/indf.jpg", "name": "Butter Chicken", "description": "Tender chicken cooked in a rich, creamy tomato-based sauce, served with naan or rice." },
+        { "image": "http://localhost:3000/images/indf2.jpg", "name": "Chole Bhature", "description": "A popular North Indian dish featuring spicy chickpea curry served with deep-fried bread, often enjoyed for breakfast or brunch." }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Italy",
+      "description": "Explore the timeless beauty and culinary delights of Italy. From the ancient ruins of Rome to the romantic canals of Venice, Italy is a treasure trove of art, history, and gastronomy. Marvel at the masterpieces of Renaissance art in Florence, savor authentic pizza in Naples, and wander through picturesque vineyards in Tuscany. Whether you're indulging in creamy gelato, sipping fine wines, or exploring charming coastal villages along the Amalfi Coast, Italy promises an unforgettable journey filled with passion and elegance.",
+      "imageUrl": "http://localhost:3000/images/i.jpg",
+      "featured": true,
+      "countryCode": "IT",
+      "expense": 180985,
+      "images": ["http://localhost:3000/images/i.jpg", "http://localhost:3000/images/i1.jpg", "http://localhost:3000/images/i2.jpg"],
+      "touristPlaces": [
+        { "image": "http://localhost:3000/images/i3.jpg", "name": "Colosseum" },
+        { "image": "http://localhost:3000/images/i4.jpg", "name": "Venice Grand Canal" },
+        { "image": "http://localhost:3000/images/i5.jpg", "name": "Florence Cathedral" }
+      ],
+      "language": "Italian",
+      "currency": "EUR",
+      "temperadivesture": 22,
+      "weatherDescription": "Sunny",
+      "localCuisine": [
+        { "image": "http://localhost:3000/images/itf.jpg", "name": "Pizza Margherita", "description": "A classic Neapolitan pizza topped with tomato sauce, mozzarella cheese, fresh basil, and a drizzle of olive oil." },
+        { "image": "http://localhost:3000/images/itf1.jpg", "name": "Pasta Carbonara", "description": "A delicious Roman pasta dish made with eggs, cheese, pancetta, and black pepper." },
+        { "image": "http://localhost:3000/images/itf2.jpg", "name": "Gelato", "description": "Creamy and flavorful Italian ice cream, available in a variety of delicious flavors." }
+      ]
+    },
+    {
+        "id": 5,
+        "name": "Maldives",
+        "description": "Escape to paradise in the Maldives, where crystal-clear turquoise waters lap against powdery white beaches. Stay in luxurious overwater villas and bask in the serenity of secluded island resorts. Snorkel among vibrant coral reefs, encounter majestic manta rays, and indulge in sumptuous seafood dinners under the stars. Whether you're seeking romance, relaxation, or adventure, the Maldives offers a tropical haven like no other.",
+        "imageUrl": "http://localhost:3000/images/mal1.jpg",
+        "featured": true,
+        "countryCode": "MV",
+        "expense": 415995,
+        "images": ["http://localhost:3000/images/mal1.jpg", "http://localhost:3000/images/mal.jpg", "http://localhost:3000/images/mal2.jpg"],
+        "touristPlaces": [
+          { "image": "http://localhost:3000/images/mal3.jpg", "name": "Ari Atoll" },
+          { "image": "http://localhost:3000/images/mal4.jpg", "name": "Baa Atoll" },
+          { "image": "http://localhost:3000/images/mal5.jpg", "name": "Ambika Niwas" }
+        ],
+        "language": "Dhivehi",
+        "currency": "MVR",
+        "temperature": 29,
+        "weatherDescription": "Sunny",
+        "localCuisine": [
+          { "image": "http://localhost:3000/images/malf.jpg", "name": "Mas Huni", "description": "A traditional Maldivian breakfast dish made with shredded smoked fish, coconut, and spices, typically served with roshi (flatbread) and sweet black tea." },
+          { "image": "http://localhost:3000/images/malf1.jpg", "name": "Garudhiya", "description": "A fragrant fish soup made with tuna, lime, chili, and curry leaves, often enjoyed with steamed rice." },
+          { "image": "http://localhost:3000/images/malf2.jpg", "name": "Bis Keemiya", "description": "Savory pastries filled with spiced tuna, chicken, or vegetables, a popular snack in the Maldives." }
+        ]
+      },
+        {
+          "id": 6,
+          "name": "Australia",
+          "description": "Discover the wonders of the Land Down Under in Australia. From the iconic Sydney Opera House to the breathtaking landscapes of the Outback, Australia offers a diverse range of experiences for every traveler. Explore vibrant cities, pristine beaches, and ancient rainforests. Encounter unique wildlife such as kangaroos, koalas, and colorful coral reefs. Whether you're surfing along the Gold Coast, wine tasting in the Barossa Valley, or snorkeling at the Great Barrier Reef, Australia promises an unforgettable adventure filled with beauty and excitement.",
+          "imageUrl": "http://localhost:3000/images/aus3.jpg",
+          "featured": true,
+          "countryCode": "AU",
+          "expense": 167130,
+          "images": ["http://localhost:3000/images/aus3.jpg", "http://localhost:3000/images/aus1.jpg", "http://localhost:3000/images/aus2.jpg"],
+          "touristPlaces": [
+            { "image": "http://localhost:3000/images/aus4.jpg", "name": "Great Barrier Reef" },
+            { "image": "http://localhost:3000/images/aus5.jpg", "name": "Uluru-Kata Tjuta National Park" },
+            { "image": "http://localhost:3000/images/aus.jpg", "name": "Sydney Opera House" }
+          ],
+          "language": "English",
+          "currency": "AUD",
+          "temperature": 25,
+          "weatherDescription": "Sunny",
+          "localCuisine": [
+            { "image": "http://localhost:3000/images/auf.jpg", "name": "Pavlova", "description": "A popular Australian dessert consisting of a meringue base topped with whipped cream and fresh fruits, named after the Russian ballerina Anna Pavlova." },
+            { "image": "http://localhost:3000/images/auf2.jpg", "name": "Tim Tam", "description": "A beloved Australian chocolate biscuit composed of two layers of chocolate malted biscuit separated by a creamy filling and coated in chocolate." },
+            { "image": "http://localhost:3000/images/auf1.jpg", "name": "Meat Pie", "description": "A savory pie filled with minced meat and gravy, a classic Aussie comfort food often enjoyed at sporting events." }
+          ]
+        }
+      ]  

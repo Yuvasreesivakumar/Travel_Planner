@@ -1,0 +1,41 @@
+<div *ngIf="destination" class="destination-details-container">
+  <div class="slideshow-container">
+    <div *ngFor="let image of destination.images; let i = index" class="mySlides fade" [style.display]="i === currentSlideIndex ? 'block' : 'none'">
+      <img [src]="image" alt="{{ destination.name }}">
+    </div>
+    <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+    <a class="next" (click)="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Details section -->
+  <div class="details-container">
+    <h2>{{ destination.name }}</h2>
+    <p><strong>Description:</strong> {{ destination.description }}</p>
+    <p><strong>Location:</strong> {{ destination.countryCode }}</p>
+    <p><strong>Expense:</strong> {{ destination.expense }}</p>
+    <h3>Tourist Places Covered:</h3>
+    <div class="places-container">
+      <div *ngFor="let place of destination.touristPlaces" class="place-card">
+        <img [src]="place.image" alt="{{ place.name }}">
+        <div class="place-name">{{ place.name }}</div>
+      </div>
+    </div>
+    <h3>Local Cuisine:</h3>
+    <div class="dishes-container">
+      <div *ngFor="let dish of destination.localCuisine" class="dish-card">
+        <img [src]="dish.image" alt="{{ dish.name }}">
+        <div class="dish-info">
+          <h4>{{ dish.name }}</h4>
+          <p>{{ dish.description }}</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add to Cart and Like buttons -->
+    <div class="action-buttons">
+      <button (click)="addToCart(destination)">Add to Cart</button>
+      <button (click)="likeDestination(destination)">
+        <span>&#x2661;</span> <!-- Heart symbol -->
+      </button>
+    </div>
+  </div>
+</div>

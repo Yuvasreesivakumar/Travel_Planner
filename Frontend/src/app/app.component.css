@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border: 1px grey;
+  display: flex;
+  background-color: #f0f0f0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.icon {
+  font-weight: 900;
+  font-size: 24px;
+  color: black;
+}
+
+.heart {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.icon, .heart {
+  margin-right: 40px;
+}
+
+.app {
+  margin-right: 0px;
+  display: flex;
+  background-color: #f0f0f0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  flex: 1; /* Take up remaining space */
+}
+
+footer {
+  position: relative; /* Relative to the body */
+  width: 100%;
+  background-color: #f0f0f0;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  padding: 20px;
+  max-width: 300px;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+.links h2 {
+  margin-bottom: 10px;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.contact-form h2 {
+  cursor: pointer;
+}
+
+.footer-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #777;
+}

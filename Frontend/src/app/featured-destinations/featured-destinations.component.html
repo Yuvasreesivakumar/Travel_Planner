@@ -1,0 +1,50 @@
+<!--
+  <div class="featured-destinations">
+  <div class="destination-cards">
+    <div class="destination-card" *ngFor="let destination of displayedDestinations">
+      <div class="card-content">
+        <div class="card-top">
+          <button (click)="likeDestination(destination)">
+            <span>&#x2661;</span>
+          </button>
+        </div>
+        <div class="card-image">
+          <img class="card-img" [src]="destination.imageUrl" alt="{{ destination.name }}">
+        </div>
+        <div class="card-details">
+          <h3>{{ destination.name }}</h3>
+          <button class="explore-button" (click)="exploreDestination(destination.id)">
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<div class="featured-destinations">
+  <div class="destination-cards">
+    <div class="destination-card" *ngFor="let destination of displayedDestinations">
+      <div class="card-content">
+        <div class="card-top">
+          <button class="like-button" (click)="likeDestination(destination)">
+            <span>&#x2661;</span>
+          </button>
+        </div>
+        <div class="card-image">
+          <img class="card-img" [src]="destination.imageUrl" alt="{{ destination.name }}">
+        </div>
+        <div class="card-details">
+          <h3>{{ destination.name }}</h3>
+          <button class="explore-button" (click)="exploreDestination(destination.id)">
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-template #noResults>
+  <p>No results found</p>
+</ng-template>
+

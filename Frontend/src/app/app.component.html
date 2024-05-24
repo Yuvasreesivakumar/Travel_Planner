@@ -1,0 +1,47 @@
+<header>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <div class="header">
+    <h1 routerLink="" >Trip Planner</h1>
+    <nav>
+      <a routerLink="/cart"><i class="fas fa-shopping-cart icon"></i></a>
+      <a routerLink="/likes"><span class="heart">&#x2665;</span></a>
+      <ng-container *ngIf="authService.isLoggedIn(); else login">
+        <a (click)="authService.logout()" class="logout">Logout</a>
+        <span class="username">{{ authService.getUsername() }}</span>
+      </ng-container>
+      <ng-template #login>
+        <a routerLink="/login">Login</a>
+      </ng-template>
+    </nav>
+  </div>
+</header>
+
+
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis magna nec velit rhoncus consequat.</p>
+    </div>
+    <div class="footer-section links">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a routerLink="">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a routerLink="contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section contact-form">
+      <h2 routerLink="contact">Contact Us</h2>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2024 Trip Planner | Designed by Your Name
+  </div>
+</footer>
